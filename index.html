@@ -27,21 +27,28 @@
     <title>100% buziness.</title>
 </head>
 <body>
-    <div class="header">
-        <div class="contenu">
-            <div class="image">
-                <img alt="logo" width="100" src="img/logo/logo.jpeg"/> 
-            </div>
-            <div class="recherche">
-                <button>Categories</button>
-                <input type="text" />
-                <button>R</button>
-            </div>
-            <div class="connexion">
-                <a>Se connecter</a>
-                <button>Creer une publication</button>
+    <div class="page-wrapper" style="height: auto !important;">
+        <div class="header">
+            <div class="contenu flex w-[80%] m-auto justify-between">
+                <div class="image">
+                    <img alt="logo" width="100" src="img/logo/logo.jpeg"/> 
+                </div>
+                <div class="recherche flex border-2 border-gray-200">
+                    <div class="categories">Categories<i class="fa fa-angle-down"></i></i></div>
+                    <div class="recherche">
+                        <input type="text" placeholder="Que recherchez-vous?" />
+                    </div>
+                    <div class="button-search">
+                        <i class="fas fa-search"></i>
+                    </div>
+                </div>
+                <div class="connexion flex">
+                    <a>Se connecter</a>
+                    <button>Creer une publication</button>
+                </div>
             </div>
         </div>
     </div>
+    
 </body>
 </html>
