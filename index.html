@@ -28,25 +28,91 @@
 </head>
 <body>
     <div class="page-wrapper" style="height: auto !important;">
-        <div class="header">
-            <div class="contenu flex w-[80%] m-auto justify-between">
+        <div class="header shadow-md">
+            <div class="contenu flex w-[80%] m-auto justify-between items-center ">
                 <div class="image">
                     <img alt="logo" width="100" src="img/logo/logo.jpeg"/> 
                 </div>
-                <div class="recherche flex border-2 border-gray-200">
-                    <div class="categories">Categories<i class="fa fa-angle-down"></i></i></div>
-                    <div class="recherche">
+                <div class="recherche flex border-2 border-gray-200 items-center h-[45px]">
+                    <div class="categories flex justify-between items-center w-[170px] px-3 border-r-2 border-gray-200"><span>Categories</span><i class="fa fa-angle-down"></i></i></div>
+                    <div class="recherche w-[575px] flex justify-between items-center pl-3">
                         <input type="text" placeholder="Que recherchez-vous?" />
-                    </div>
-                    <div class="button-search">
-                        <i class="fas fa-search"></i>
+                        <div class="button-search w-[10%] h-[100%] flex justify-center items-center bg-gray-200 py-2">
+                            <i class="fas fa-search bg-gray-200"></i>
+                        </div>
+                        
                     </div>
                 </div>
-                <div class="connexion flex">
+                <div class="connexion flex items-center h-[45px]">
                     <a>Se connecter</a>
-                    <button>Creer une publication</button>
+                    <button class="ml-4 bg-gediserbleu p-2 rounded-md text-white"><i class="fa fa-circle-plus mr-2"></i>Cr&eacute;er une publication</button>
                 </div>
             </div>
+        </div>
+        <div class="main mt-4">
+            <div class="contenu w-[70%] m-auto">
+                <div class="list-categories flex flex-wrap justify-between gap-9 shadow-md">
+                    <div class="categorie flex flex-col items-center">
+                        <div class="rounded-full w-16 h-16 bg-orange">
+                            <img class="w-[100%] rounded-full" alt="categorie" src="img/categories/mode-homme.jpeg" />
+                        </div>
+                        <h3 class="text-center font-bold">Hommes</h3>
+                    </div>
+                    <div class="categorie flex flex-col items-center">
+                        <div class="rounded-full w-16 h-16 bg-orange">
+                            <img class="w-[100%] rounded-full" alt="categorie" src="img/categories/mode-femme.jpeg" />
+                        </div>
+                        <h3 class="text-center font-bold">Femmes</h3>
+                    </div>
+                    <div class="categorie flex flex-col items-center">
+                        <div class="rounded-full w-16 h-16 bg-orange">
+                            <img class="w-[100%] rounded-full" alt="categorie" src="img/categories/cuisine.jpeg" />
+                        </div>
+                        <h3 class="text-center font-bold">Cuisine</h3>
+                    </div>
+                    <div class="categorie flex flex-col items-center">
+                        <div class="rounded-full w-16 h-16 bg-orange">
+                            <img class="w-[100%] rounded-full" alt="categorie" src="img/categories/jeux-videos.jpeg" />
+                        </div>
+                        <h3 class="text-center font-bold">Jeux videos</h3>
+                    </div>
+                    <div class="categorie flex flex-col items-center">
+                        <div class="rounded-full w-16 h-16 bg-orange">
+                            <img class="w-[100%] rounded-full" alt="categorie" src="img/categories/maison.jpeg" />
+                        </div>
+                        <h3 class="text-center font-bold">Maison</h3>
+                    </div>
+                    <div class="categorie flex flex-col items-center">
+                        <div class="rounded-full w-16 h-16 bg-orange">
+                            <img class="w-[100%] rounded-full" alt="categorie" src="img/categories/sport-fitness.jpeg" />
+                        </div>
+                        <h3 class="text-center font-bold">Sport Fitness</h3>
+                    </div>
+                    <div class="categorie flex flex-col items-center">
+                        <div class="rounded-full w-16 h-16 bg-orange">
+                            <img class="w-[100%] rounded-full" alt="categorie" src="img/categories/supermarche.jpeg" />
+                        </div>
+                        <h3 class="text-center font-bold">Supermarche</h3>
+                    </div>
+                    <div class="categorie flex flex-col items-center">
+                        <div class="rounded-full w-16 h-16 bg-orange">
+                            <img class="w-[100%] rounded-full" alt="categorie" src="img/categories/telephone.jpeg" />
+                        </div>
+                        <h3 class="text-center font-bold">T&eacute;l&eacute;phone</h3>
+                    </div>
+                    <div class="categorie flex flex-col items-center">
+                        <div class="rounded-full w-16 h-16 bg-orange">
+                            <img class="w-[100%] rounded-full" alt="categorie" src="img/categories/vins-spiritueux.jpeg" />
+                        </div>
+                        <h3 class="text-center font-bold">Vin et spiritueux</h3>
+                    </div>
+                </div>
+                <div class="advertising mt-2">
+                    <div><img class="rounded-md w-full" alt="img-slider-1" src="img/promotions/promotion1.jpeg" /></div>
+                    
+                </div>
+            </div>
+            
         </div>
     </div>
     
